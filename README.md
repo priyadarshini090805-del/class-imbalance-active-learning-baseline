@@ -1,10 +1,14 @@
-Class Imbalance in Active Learning – Baseline Prototype
+Active Learning Baseline (Proof of Attempt)
 
-This repository contains a minimal prototype created to understand the workflow of pool-based active learning under class imbalance.
+This code implements a minimal active learning loop to demonstrate the mechanics of pool-based querying under class imbalance.
 
-The implementation uses a synthetic imbalanced dataset and a simple uncertainty-based querying loop. The goal is to study querying behavior before integrating real datasets and full models.
+Setup:
+- Synthetic dataset with 3 classes and imbalanced distribution
+- Small initial labeled set
+- Uncertainty-based querying using random scores as a placeholder
 
-This code is part of an initial exploratory study on class imbalance in active learning.
+Purpose:
+This implementation is intended as a preliminary prototype to understand the active learning workflow before integrating a full model and real datasets.
 
-Files:
-- baseline.py: minimal active learning loop
+File:
+- baseline.py: contains the active learning loop and query mechanism
